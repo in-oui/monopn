@@ -20,9 +20,27 @@
 
 ## 必要環境
 
-- Linux（現在の配布バイナリは x86-64 用）
+- 配布バイナリ: Linux x86-64、glibc 2.34以降
 - Cコンパイラ（GCCまたはClang）
 - GNU Make
+
+## ダウンロードして起動
+
+[GitHub Releases](https://github.com/in-oui/monopn/releases/latest)から
+`monopn-v1.0.0-linux-x86_64.tar.gz`をダウンロードし、展開して起動します。
+
+```sh
+mkdir monopn-v1.0.0
+cd monopn-v1.0.0
+curl -LO https://github.com/in-oui/monopn/releases/download/v1.0.0/monopn-v1.0.0-linux-x86_64.tar.gz
+tar xzf monopn-v1.0.0-linux-x86_64.tar.gz
+./monopn
+```
+
+配布アーカイブには実行ファイル`monopn`と、実行に必要な`cards.pck`が
+含まれています。両方を同じディレクトリに置いたまま実行してください。
+このバイナリはglibc 2.34以降を使用するLinux x86-64環境向けです。
+それ以外の環境では、以下の手順でソースからビルドしてください。
 
 ## ビルド
 

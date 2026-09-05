@@ -21,9 +21,28 @@ compatible with this version.
 
 ## Requirements
 
-- Linux (the current prebuilt binary targets x86-64)
+- Prebuilt binary: Linux x86-64 with glibc 2.34 or later
 - A C compiler such as GCC or Clang
 - GNU Make
+
+## Downloading and running
+
+Download `monopn-v1.0.0-linux-x86_64.tar.gz` from
+[GitHub Releases](https://github.com/in-oui/monopn/releases/latest), extract it,
+and start the game:
+
+```sh
+mkdir monopn-v1.0.0
+cd monopn-v1.0.0
+curl -LO https://github.com/in-oui/monopn/releases/download/v1.0.0/monopn-v1.0.0-linux-x86_64.tar.gz
+tar xzf monopn-v1.0.0-linux-x86_64.tar.gz
+./monopn
+```
+
+The archive contains both the `monopn` executable and the required `cards.pck`
+file. Keep them in the same directory when running the game. This binary targets
+Linux x86-64 systems with glibc 2.34 or later. On other systems, build the game
+from source as described below.
 
 ## Building
 
