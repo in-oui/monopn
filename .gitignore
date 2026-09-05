@@ -1,0 +1,20 @@
+# Compiler and linker output
+*.o
+monopn
+initdeck
+cards.pck
+
+# Saved games
+*.sav
+*.save
+savemono
+
+# Local tooling
+.agents/
+.codex/
+
+# Editor and OS files
+*~
+.*.swp
+.DS_Store
+
