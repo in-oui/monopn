@@ -1,5 +1,7 @@
 # monopn
 
+[English](README.en.md) | 日本語
+
 `monopn` は、BSD Games の `monop` をベースにした端末用ボードゲームです。
 元のゲーム内容を保ちつつ、現在の環境でゲーム状態を安全にセーブ／ロード
 できるように改修しています。
@@ -85,4 +87,3 @@ tar czf monopn-linux-x86_64.tar.gz monopn cards.pck
 原版は BSD Games の `monop` で、作者は Ken Arnold です。各ソースファイルに
 原著作権表示が残されています。本リポジトリ全体のライセンスについては
 [`LICENSE`](LICENSE)を参照してください。
-
